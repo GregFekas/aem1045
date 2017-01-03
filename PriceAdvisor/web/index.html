@@ -8,51 +8,23 @@ and open the template in the editor.
     <head>
         <title>Price Advisor</title>
         <link rel = "icon" href = "price-icon.ico" sizes = "16x16">
+        <link rel="stylesheet" type="text/css" href="index.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            h1{
-                font-family: tahoma sans-serif;
-                text-shadow: 2px 2px #CCC;
-            }
-            h2{
-                 font-family: tahoma sans-serif;
-                 color: goldenrod;
-                 text-align: center;
 
-            }
-            a{
-                text-decoration: none;
-                text-align: center;
-            }
-
-            div {
-                border:solid black;
-                text-align: center;
-                width: 300px;
-                height: 120px;
-                
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left:  0;
-                right: 0;
-                
-                margin: auto;
-            }
-            
-        </style>
     </head>
     <body>
         <a href="index.html">
             <h1>Price Advisor</h1>
         </a>
-        <h2>Welcome to Price Advisor! <br>
-            Here you can compare the prices from different SuperMarkets and See if you are getting ripped off! <br>
-            But First Things First... You Need to Login to your UTH Account
-        </h2>
+        <div id="welcome">
+            <h2>Welcome to Price Advisor! <br>
+                Here you can compare the prices from different SuperMarkets and See if you are getting ripped off! <br>
+                But First Things First... You Need to Login to your UTH Account
+            </h2>
+        </div>
         
-        <div> 
+        <div id="login"> 
             <form action="login.jsp" method="post"> 
                 UTH Username:<br>
                 <input type="text" name="username" /><br>
